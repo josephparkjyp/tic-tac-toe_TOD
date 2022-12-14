@@ -1,10 +1,10 @@
 html, body {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
+    margin: auto;
 }
 
 body * {
-    border: 1px solid red;
     font-family: 'Poppins';
 }
 
@@ -15,7 +15,26 @@ body * {
     align-items: center;
 }
 
+.header {
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
 .gameboard {
+    margin-top: 20px;
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -25,12 +44,52 @@ body * {
 .box {
     border: 1px solid black;
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
 
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 5rem;
     font-weight: bold;
+}
+
+.form, .form * {
+}
+
+.form {
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.form > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+#player1-name, #player2-name {
+    width: 150px;
+    height: 20px;
+}
+
+#player1-symbol, #player2-symbol {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#submit {
+    width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
