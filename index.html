@@ -14,10 +14,19 @@
         <div class="header">
             <p>Let's play Tic-Tac-Toe!</p>
         </div>
-        <div class="buttons">
-            <button id="start">Start</button>
-            <button id="reset">Reset</button>
-        </div>
+
+        <form class="form">
+            <div class="player1-info">
+                <label for="player1-name">Player 1's Name:</label>
+                <input type="text" id="player1-name">
+            </div>
+            <div class="player2-info">
+                <label for="player2-name">Player 2's Name:</label>
+                <input type="text" id="player2-name">
+            </div>
+            <button id="submit">Start Game</button>
+        </form>
+
         <div class="gameboard" id="gameboard">
             <div class="box"></div>
             <div class="box"></div>
@@ -33,17 +42,7 @@
         </div>
     </div>
 
-    <form class="form">
-        <div class="player1-info">
-            <input type="text" id="player1-name">
-            <input type="text" id="player1-symbol">
-        </div>
-        <div class="player2-info">
-            <input type="text" id="player2-name">
-            <input type="text" id="player2-symbol">
-        </div>
-        <button id="submit">Start Game</button>
-    </form>
+    
 
 
     <script src="scripts.js"></script>

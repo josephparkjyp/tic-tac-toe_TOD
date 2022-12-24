@@ -25,13 +25,6 @@ body * {
     margin-bottom: 20px;
 }
 
-.buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 120px;
-}
-
 .gameboard {
     margin-top: 20px;
     
@@ -54,42 +47,3 @@ body * {
     font-weight: bold;
 }
 
-.form, .form * {
-}
-
-.form {
-    margin: auto;
-    width: 300px;
-    margin-top: 20px;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.form > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-
-}
-
-#player1-name, #player2-name {
-    width: 150px;
-    height: 20px;
-}
-
-#player1-symbol, #player2-symbol {
-    width: 20px;
-    height: 20px;
-    text-align: center;
-}
-
-#submit {
-    width: 100px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-}
